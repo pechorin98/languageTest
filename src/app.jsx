@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate, useParams } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import HomePage from '/src/pages/HomePage';
+import AboutPage from '/src/pages/AboutPage';
 import i18n from './i18n';
 
 const App = () => {
